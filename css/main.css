@@ -543,18 +543,6 @@ section.proSec {
   z-index:2;
 }
 
-/* @keyframes spinningStar {
-  0%{ transform:rotate(0deg); 
-      background:#00ccff; 
-  }
-  50%{
-    background:#ff9c00;
-  }
-  100%{ transform:rotate(-360deg) ;
-        background:#00ff7f;
-  }
-}
-*/
 #service > span#topSpan {
   top:5rem;
   left:75%;
@@ -694,6 +682,7 @@ border-color:#00ccff;
 /* Past Projects Start */
 #pastProjects {
   max-width:1200px;
+  height:100rem;
   background:#000;
 }
 #pastProjects h2.sectionHeading {
@@ -708,22 +697,32 @@ border-color:#00ccff;
   border-right:.5rem solid #e0e1e1;
 }
 #pastProjects .mainDiv {
-  width:80%;
-  height:50rem;
+  width:90%;
+  height:40rem;
   margin:auto;
-  background:#fff;
   border:1px solid red;
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  overflow: scroll hidden;
   position: relative;
 }
 #pastProjects .mainDiv.slider > span {
   position: absolute;
-  top:50%;
-  width:10rem;
-  height:10rem;
+  top:16rem;
+  width:8rem;
+  height:8rem;
   display:grid;
   place-items:center;
-  background:#f1f1f11a;
+  background:transparent;
   border-radius:50%;
+  z-index:55;
+}
+
+#pastProjects .mainDiv.slider > span i{
+  font-size:7rem;
+  font-weight:900;
+  color:#00ccff;
 }
 #pastProjects .mainDiv.slider > span#leftArrow {
   left:0;
@@ -732,17 +731,66 @@ border-color:#00ccff;
 #pastProjects .mainDiv.slider > span#rightArrow {
   right:0;
 }
-#pastProjects .mainDiv.slider .slideElements{
+#pastProjects .mainDiv.slider .slideElements {
+  width:30rem;
+  display:grid;
+  grid-template-rows:25rem 10rem;
+  grid-template-columns:1fr;
+}
+
+#pastProjects .mainDiv.slider .slideElements .grid2 {
+  position: relative;
+}
+#pastProjects .mainDiv.slider .slideElements .grid2 > a {
+  padding:2rem 3rem;
+  position:absolute;
+  top:1rem;
+  z-index:4;
+  text-transform: capitalize;
+  text-decoration:none;
+  border:.5rem solid red;
+  background:#fff;
+  color:#000;
+}
+#pastProjects .mainDiv.slider .slideElements .grid2 > a.getCode {
+  left:0;
+}
+#pastProjects .mainDiv.slider .slideElements .grid2 > a.livePreview {
+  right:0;
+}
+#pastProjects .mainDiv.slider .slideElements .grid1 >img {
+  position:relative;
   width:100%;
   height:100%;
-  position: absolute;
-  top:0;
-  left:0;
+  z-index:1;
+}
+#pastProjects .mainDiv.slider .slideElements p {
+  background:blue;
 }
 /* Past Projects End */
 
 /* Main Designe End */
 
+/* All keyframes */
+/*
+   @keyframes hireMeBtn {
+     0%{ transform:scale(1) }
+     50%{ transform:scale(1.23) }
+     100%{ transform:scale(1) }
+   }
+   
+@keyframes spinningStar {
+  0%{ transform:rotate(0deg); 
+      background:#00ccff; 
+  }
+  50%{
+    background:#ff9c00;
+  }
+  100%{ transform:rotate(-360deg) ;
+        background:#00ff7f;
+  }
+}
+*/
 /* Additional Designe For Page Navigation Start */
 
 body > section#pageWrapper > a.scroll {
