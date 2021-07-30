@@ -32,7 +32,7 @@ html{
 /*  Navigation Bar Designe Start */
 .mainHeader
 {
-  max-width:120rem;
+  max-width:1200px;
 }
 .mainHeader .headerBg {
   width:100%;
@@ -136,7 +136,7 @@ html{
 /* About Section start */
 
 section.aboutMe {
-  max-width:120rem;
+  max-width:1200px;
   background:var(--black);
   position: relative;
   display:grid;
@@ -238,7 +238,7 @@ section.aboutMe {
 /* Skil Section start */
 
 .skillSection {
-    max-width:120rem;
+    max-width:1200px;
     height:230rem;
     position: relative;
     background-image: linear-gradient(to right top, #316ac0, #534784, #482b4e, #2c1824, #000000);
@@ -340,7 +340,7 @@ section.aboutMe {
 
 /* Progress Section start */
 section.proSec {
-  max-width:120rem;
+  max-width:1200px;
   background:url('../img/bg_10.jpg');
   background-repeat:no-repeat;
   background-size:cover;
@@ -506,7 +506,7 @@ section.proSec {
 
 /* Service Section Start */
 #service {
-  max-width:120rem;
+  max-width:1200px;
   height:180rem;
   position: relative;
   background-image:linear-gradient(#000,#000,#014b5d);
@@ -693,9 +693,51 @@ border-color:#00ccff;
 
 /* Past Projects Start */
 #pastProjects {
-  max-width:120rem;
-  height:100rem;
-  background:red;
+  max-width:1200px;
+  background:#000;
+}
+#pastProjects h2.sectionHeading {
+  text-align: center;
+  line-height:30rem;
+  font-family:var(--fReg);
+  font-size:4rem;
+  color:#26cff9;
+}
+#pastProjects h2.sectionHeading > span {
+  padding:2rem 3rem;
+  border-right:.5rem solid #e0e1e1;
+}
+#pastProjects .mainDiv {
+  width:80%;
+  height:50rem;
+  margin:auto;
+  background:#fff;
+  border:1px solid red;
+  position: relative;
+}
+#pastProjects .mainDiv.slider > span {
+  position: absolute;
+  top:50%;
+  width:10rem;
+  height:10rem;
+  display:grid;
+  place-items:center;
+  background:#f1f1f11a;
+  border-radius:50%;
+}
+#pastProjects .mainDiv.slider > span#leftArrow {
+  left:0;
+}
+
+#pastProjects .mainDiv.slider > span#rightArrow {
+  right:0;
+}
+#pastProjects .mainDiv.slider .slideElements{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
 }
 /* Past Projects End */
 
