@@ -1,7 +1,7 @@
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 const hire = document.querySelector("ul li #hireBtn");
 hire.href = 'http://sahedulislam.cf/Admin';
-hire.target = '_blank';
+hire.target = '_blank'; // initial target
 
 // Scrolling Effect Start 
 const scroll = document.querySelector('body > section#pageWrapper > a.scroll');
@@ -32,7 +32,7 @@ const rightBtn = document.querySelector('#pastProjects #rightArrow') ;
 const leftBtn = document.querySelector('#pastProjects #leftArrow') ;
 
 //  curred slider function
-const slideShow = (slideItemsQuantity= 1 ,moveType = 'Forward') => {
+function slideShow(slideItemsQuantity= 1 ,moveType = 'Forward') {
   
   let maxIndex = slideItemsQuantity - 1 ; // max value of class index .
   let i = 0 , counter = 0; // initializer
@@ -100,7 +100,7 @@ const slideShow = (slideItemsQuantity= 1 ,moveType = 'Forward') => {
 
  rightBtn.addEventListener('click',forward);
  leftBtn.addEventListener('click',backward);
- setInterval(forward,5000);//For Auto change effect 
+ // setInterval(forward,5000);//For Auto change effect 
 // Slider for past projects  Start 
 
 

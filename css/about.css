@@ -17,9 +17,6 @@ section.aboutMe {
   height:calc(var(--h) - 30rem);
   background:transparent;
 }
-.aboutMe .contents .about h2:first-child {
-  text-align: center;
-}
 .aboutMe .contents .about h2 {
   font-family:var(--fReg);
   font-weight:bold;
