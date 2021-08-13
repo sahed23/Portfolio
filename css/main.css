@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 /* Links and Web fonts import End */
 
 /* Universal Design */
@@ -23,9 +26,12 @@
 /* Past Projects */
 @import url('pastProjects.css');
 
+/* Contact Form  */
+@import url('form.css'); 
+
 /* All keyframes */
 /* @import url('animation.css'); */
 
-/* Media Queares */
+/* Media Queares 
 @import url('responsive.css');
-
+*/

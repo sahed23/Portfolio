@@ -6,15 +6,15 @@
      <meta name="viewport" content="width=1200px">
      
      <meta name="theme-color" content="#000">
-    <meta name="description" content="This is my portfolio website">
-   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
-  <link rel="manifest" href="/favicon/site.webmanifest">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-   <title>Sahedul Islam Rony | Designer - Developer & Self Learner </title>
+     <meta name="description" content="This is my portfolio website">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+   <title>Sahedul Islam Rony | Designer - Developer & Self Learner </title>
   </head>
   <body>
     <section id="pageWrapper"> <!-- page wrapper -->
@@ -61,13 +61,13 @@
      
      <div class="imgIcons">
       <div class="socialIcon">
-      <a class="" href="#">  <i class="fab fa-facebook-f"></i> </a>
+      <a class="facebook" href="#">  <i class="fab fa-facebook-f"></i> </a>
       </div>
       <div class="socialIcon">
-      <a class="" href="#">  <i class="fab fa-twitter"></i> </a>
+      <a class="twitter" href="#">  <i class="fab fa-twitter"></i> </a>
       </div>
       <div class="socialIcon">
-     <a class="" href="#">  <i class="fab fa-github"></i> </a>
+     <a class="github" href="#">  <i class="fab fa-github"></i> </a>
       </div>
      </div>
   <a class="" href="#">  <button class="button">Know More... </button> </a>
@@ -367,6 +367,62 @@
  </section>
  <!-- past projects End -->
  
+ <!-- Contact Form Start -->
+ <section class="contentMe" id="contact">
+   <h2 class="sectionHeading">contact me</h2>
+   <div class="mainDiv">
+     <div class="textBox">
+       <div class="textWrapper">
+        <p >  Hello ! </p> 
+        <p> Hopefully you're well by the grace of Almighty . I'm very glad to see you here .As a developer I always try to do something <span>creative</span>. I am a self learned <span>programmer</span> . You can contact me for any kind of website related issues . I'm always there for you . Hope we talk soon !
+        </p>
+        <p> With Love ... </p>
+        <h3 class="signature">Sahedul Islam Rony</h3>
+       </div>
+     </div>
+     <div class="form">
+       <form class="mainForm" action="" method="get" accept-charset="utf-8">
+         <div class="nameGroup">
+          <div class="fnameDiv" >
+           <label for="name">Full Name : </label> <br />
+           <input required class="" type="text" name="fname" id="fname" value="" placeholder="First Name..." />
+             
+             <i class="far "></i>
+            
+           </div>
+           <br />
+          <div class="lnameDiv" >
+           <input required class="" type="text" name="lname" id="lname" value="" placeholder="Last Name..." />
+           
+          <i class="far "></i>
+           </div>
+           <span id="nameErr" > </span>
+         </div>
+         <div class="emailGroup ">
+           <label for="email">Email : </label> <br />
+           <div class="wrapper">
+            
+           <input required type="email" name="email" id="email" value="" placeholder="example@gmail.com" />
+           <i class="far"></i>
+           </div>
+           <span id="emailErr" ></span>
+         </div>
+         <div class="textareaGroup">
+           <label for="textarea">Send Your Message : </label> <br />
+           <textarea required name="textArea" id="textArea" placeholder="Type Something..."></textarea>
+           <span id="textareaErr" ></span>
+         </div>
+       <center>
+           <button class="submitBtn" type="submit">
+             <i class="fas fa-paper-plane"></i>
+             </button>
+       </center>
+       </form>
+     </div>
+   </div>
+   
+ </section>
+ <!-- Contact Form End -->
  
   <!-- Top-Bottom Scroll Button Start -->
     <a class="scroll"> 
@@ -377,7 +433,9 @@
  
  
     </section> <!-- page wrapper -->
+    
+        <!-- Script -->
    <script type="text/javascript" charset="utf-8" src="js/main.js"> </script>
-   
+   <script type="text/javascript" charset="utf-8" src="js/form.js"></script>
     </body>
 </html>

@@ -17,8 +17,9 @@ html{
   --black : #000000 ;
   --blue:#00ccff;
   --h :70rem ; /* Row height */
-  --fBold : 'Lobster', cursive;
-  --fReg :'Lora', serif;
+  --fReg :'PT Serif', serif; /* For All Text */
+  --fh : 'Galada', cursive;  /* For Heading */
+  --fSig : 'Tangerine', cursive; /* For Signature */
 }
 
 body > section#pageWrapper {
