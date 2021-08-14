@@ -41,7 +41,7 @@ section.aboutMe {
   
 }
 .aboutMe .imgIcons {
- background-image:url('../img/mySelf_1.jpeg');
+ background-image:url('../img/mySelf_1.jpg');
  background-repeat:no-repeat;
  background-size: cover;
  display:flex;
