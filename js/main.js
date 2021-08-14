@@ -100,7 +100,7 @@ function slideShow(slideItemsQuantity= 1 ,moveType = 'Forward') {
 
  rightBtn.addEventListener('click',forward);
  leftBtn.addEventListener('click',backward);
- // setInterval(forward,5000);//For Auto change effect 
+  setInterval(forward,5000);//For Auto change effect 
 // Slider for past projects  Start 
 
 
