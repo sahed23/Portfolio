@@ -156,7 +156,13 @@ button[type='submit']:hover  .fa-paper-plane {
  form.mainForm .textareaGroup.error textarea {
    border-color:#ff4c00;
  }
- 
+ button:disabled {
+   border-color:#333;
+   pointer-events: none;
+ }
+ button:disabled i {
+   color:#333;
+ }
  
 section.contentMe > .mainDiv .textBox {
  border-radius:1.5rem;
@@ -187,10 +193,6 @@ section.contentMe > .mainDiv .textBox .textWrapper {
    font-weight:bold;
    color:#ff5c00;
  }
- section.contentMe > .mainDiv .textBox .textWrapper p > span {
-   color:#ff8e4e;
-   text-transform:capitalize;
- }
 section.contentMe >  .mainDiv .textBox .textWrapper h3 {
     margin-top:2rem;
     font-family:var(--fSig);
@@ -198,3 +200,4 @@ section.contentMe >  .mainDiv .textBox .textWrapper h3 {
     padding-left:1.5rem;
     color:#d7d7d7;
   }
+  
