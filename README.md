@@ -1,5 +1,5 @@
 # Portfolio
 This repository created for my portfolio website. 
 
-# Preview 
+# Live Preview 
 https://sahed2.github.io/Portfolio
