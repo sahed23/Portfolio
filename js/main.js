@@ -1,6 +1,6 @@
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 const hire = document.querySelector("ul li #hireBtn");
-hire.href = 'http://sahedulislam.cf/Admin';
+hire.href = 'mailto:sahedulislamofficial@gmail.com';
 hire.target = '_blank'; // initial target
 
 // Scrolling Effect Start 
